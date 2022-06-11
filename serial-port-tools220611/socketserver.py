@@ -12,6 +12,7 @@ class SerialPort(object):
     def __init__(self): 
         self.ser = serial.Serial()
 
+
     # 串口检测
     def portCheck(self):
         port_list = list(serial.tools.list_ports.comports())
